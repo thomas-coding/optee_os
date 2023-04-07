@@ -36,3 +36,8 @@ CFG_MMAP_REGIONS ?= 20
 #For gdb debug, disable ASLR
 CFG_CORE_ASLR=n
 CFG_TA_ASLR=n
+
+# Add for support RPMB
+CFG_REE_FS=y
+#CFG_RPMB_FS=y
+#CFG_RPMB_WRITE_KEY=y
